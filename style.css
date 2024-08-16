@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo>img {
+    gap: 6px;
+    padding: 30px;
+}
+
+.text_1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.text_2>ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.showcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text_3>h2 {
+    font-family: Inter;
+    font-size: 32.48px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+
+}
+
+.container_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.box_child {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 30px;
+}
+
+.text_3 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; 
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box_1 {
+    width: 23%; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.box_1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.box_1 p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.box_1 img:last-child {
+    width: 40px;
+    height: 40px;
+}
+
+.box_1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .box_1 {
+        width: 48%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .box_1 {
+        width: 100%; 
+    }
+}
+
+.foter_wr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_text{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    padding: 30px;
+}
+  
